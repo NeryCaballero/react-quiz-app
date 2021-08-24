@@ -1,0 +1,28 @@
+.score-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.score-result {
+    color: white;
+    font-size: 8vh;
+    width: inherit;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.score-continue-btn {
+    background: none;
+    border: 2px solid white;
+    color: white;
+    font-size: 6vh;
+    margin: 20px 0;  
+    padding: 2vh;
+}
+
+.score-continue-btn:hover {
+    background-color: rgba(235, 155, 8, 0.66);
+    color: white;
+}
